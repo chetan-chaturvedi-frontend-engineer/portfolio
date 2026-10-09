@@ -1,5 +1,4 @@
 import { IProject } from '@/types';
-import { University } from 'lucide-react';
 
 export const GENERAL_INFO = {
     email: 'kumarchetan413@gmail.com',
