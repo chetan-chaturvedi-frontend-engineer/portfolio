@@ -53,15 +53,45 @@ const Preloader = () => {
             <div className="preloader-item h-full w-[10%] bg-black"></div>
             <div className="preloader-item h-full w-[10%] bg-black"></div>
 
-            <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
+            <p className="name-text flex text-[20vw] lg:text-[100px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden">
                 <span className="inline-block translate-y-full">C</span>
                 <span className="inline-block translate-y-full">H</span>
                 <span className="inline-block translate-y-full">E</span>
                 <span className="inline-block translate-y-full">T</span>
                 <span className="inline-block translate-y-full">A</span>
                 <span className="inline-block translate-y-full">N</span>
-                {/* <span className="inline-block translate-y-full">U</span>
-                <span className="inline-block translate-y-full">L</span> */}
+                <span className="inline-block translate-y-full">&nbsp;</span>
+                <span className="inline-block translate-y-full">C</span>
+                <span className="inline-block translate-y-full">H</span>
+                <span className="inline-block translate-y-full">A</span>
+                <span className="inline-block translate-y-full">T</span>
+                <span className="inline-block translate-y-full">U</span>
+                <span className="inline-block translate-y-full">R</span>
+                <span className="inline-block translate-y-full">V</span>
+                <span className="inline-block translate-y-full">E</span>
+                <span className="inline-block translate-y-full">D</span>
+                <span className="inline-block translate-y-full">I</span>
+
+            </p>
+            <p className="name-text flex text-[8vw] lg:text-[50px] font-anton text-center absolute top-[calc(50%+2em)] left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden whitespace-nowrap">
+                <span className="inline-block translate-y-full">F</span>
+                <span className="inline-block translate-y-full">R</span>
+                <span className="inline-block translate-y-full">O</span>
+                <span className="inline-block translate-y-full">N</span>
+                <span className="inline-block translate-y-full">T</span>
+                <span className="inline-block translate-y-full">E</span>
+                <span className="inline-block translate-y-full">N</span>
+                <span className="inline-block translate-y-full">D</span>
+                <span className="inline-block translate-y-full">&nbsp;</span>
+                <span className="inline-block translate-y-full">D</span>
+                <span className="inline-block translate-y-full">E</span>
+                <span className="inline-block translate-y-full">V</span>
+                <span className="inline-block translate-y-full">E</span>
+                <span className="inline-block translate-y-full">L</span>
+                <span className="inline-block translate-y-full">O</span>
+                <span className="inline-block translate-y-full">P</span>
+                <span className="inline-block translate-y-full">E</span>
+                <span className="inline-block translate-y-full">R</span>
             </p>
         </div>
     );

@@ -55,7 +55,7 @@ const Certifications = () => {
     );
 
     return (
-        <section className="py-section" id="my-certifications">
+        <section className="pb-section" id="my-certifications">
             <div className="container" ref={containerRef}>
                 <SectionTitle title="My Certifications" />
 
@@ -91,7 +91,7 @@ const Certifications = () => {
                                 <div className="w-full">
                                     <Image
                                         src={item.thumbnail}
-                                        alt="Project"
+                                        alt={item.title}
                                         width="300"
                                         height="200"
                                         className={cn(
